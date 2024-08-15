@@ -11,3 +11,4 @@ Información básica para el curso de algoritmia
 07. [Interacción con el usuario: Leer datos de usuario desde consola](07.LeerDatosUsuario.md)
 08. [Conversiones de datos](08.ConversionesDatos.md)
 09. [Interacción con el usuario: Leer datos Usuario desde UI](09.LeerDatosUsuario_UI.md)
+10. [Ejemplo Basico 01 - Completo](100.Ejemplo01.md)
