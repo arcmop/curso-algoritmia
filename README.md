@@ -1,14 +1,27 @@
-# curso-algoritmia
-Información básica para el curso de algoritmia
+# Cursos Informática y Computación
 
-## Indice
-01. Programación Orientada a Objetos
-02. [Tipos de Datos](02.tipos.md)
-03. [Estructura Basica Archivo de Clase Java](03.EstructuraBasicaArchivo.md)
-04. [El Método main](04.ElMetodoMain.md)
-05. [Variables](05.Variables.md)
-06. [Interacción con el usuario: Mostrar mensajes](06.MostrarMensajes.md)
-07. [Interacción con el usuario: Leer datos de usuario desde consola](07.LeerDatosUsuario.md)
-08. [Conversiones de datos](08.ConversionesDatos.md)
-09. [Interacción con el usuario: Leer datos Usuario desde UI](09.LeerDatosUsuario_UI.md)
-10. [Ejemplo Basico 01 - Completo](100.Ejemplo01.md)
+## Curso Algoritmos y Programación
+### Indice
+1.  [Programación](01.Programacion.md)
+2.  [Programación: Estructuras]
+3.  [Programación: Algoritmo]
+4.  [Programación: Diagramas de Flujo]
+5.  [Programación: Pseudocódigo]
+6.  [Java - Tipos de Datos](02.tipos.md)
+7.  [Java - Estructura Basica Archivo de Clase Java](03.EstructuraBasicaArchivo.md)
+8.  [Java - El Método main](04.ElMetodoMain.md)
+9.  [Java - Variables](05.Variables.md)
+10. [Java - Interacción con el usuario: Mostrar mensajes](06.MostrarMensajes.md)
+11. [Java - Interacción con el usuario: Leer datos de usuario desde consola](07.LeerDatosUsuario.md)
+12. [Java - Conversiones de datos](08.ConversionesDatos.md)
+13. [Java - Interacción con el usuario: Leer datos Usuario desde UI](09.LeerDatosUsuario_UI.md)
+14. [Java - Ejemplo Basico 01 - Completo](100.Ejemplo01.md)
+
+## Curso Desarrollo Entornos Web
+### Indice
+
+## Curso Programación
+### Indice
+
+## Curso Base de datos
+### Indice
