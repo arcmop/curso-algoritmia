@@ -4,7 +4,7 @@
 ### Indice
 1.  [Programación](01.Programacion.md)
 2.  [Programación: Estructuras](02.Estructuras.md)
-3.  [Programación: Algoritmo]
+3.  [Programación: Algoritmo](02.Algoritmos.md)
 4.  [Programación: Diagramas de Flujo]
 5.  [Programación: Pseudocódigo]
 6.  [Java - Tipos de Datos](02.tipos.md)
