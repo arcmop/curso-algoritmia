@@ -3,7 +3,7 @@
 ## Curso Algoritmos y Programación
 ### Indice
 1.  [Programación](01.Programacion.md)
-2.  [Programación: Estructuras]
+2.  [Programación: Estructuras](02.Estructuras.md)
 3.  [Programación: Algoritmo]
 4.  [Programación: Diagramas de Flujo]
 5.  [Programación: Pseudocódigo]
