@@ -1,0 +1,13 @@
+numero1 = 0
+numero2 = 0
+suma = 0
+
+escribir("Ingrese numero1:")
+numero1 = leer()
+
+escribir("Ingrese numero2:")
+numero2 = leer()
+
+suma = numero1 + numero2
+
+escribir("La suma es: " .. suma)
