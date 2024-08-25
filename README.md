@@ -6,7 +6,7 @@
 2.  [Programación: Estructuras](02.Estructuras.md)
 3.  [Programación: Algoritmo](02.Algoritmos.md)
 4.  [Programación: Diagramas de Flujo](02.DiagramasDeFlujo.md)
-5.  [Programación: Pseudocódigo](02.Pesudocodigo.md)
+5.  [Programación: Pseudocódigo](02.Pseudocodigo.md)
 6.  [Java - Tipos de Datos](02.tipos.md)
 7.  [Java - Estructura Basica Archivo de Clase Java](03.EstructuraBasicaArchivo.md)
 8.  [Java - El Método main](04.ElMetodoMain.md)
