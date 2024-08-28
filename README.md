@@ -20,8 +20,9 @@
 ## Curso Desarrollo Entornos Web
 ### Indice
 1. [HTML](10.Html.md)
-2. [CSS](11.Css.md)
-3. [Javascript](12.Javascript.md)
+2. [HTML](10.HtmlSemantico.md)
+3. [CSS](11.Css.md)
+4. [Javascript](12.Javascript.md)
 
 ## Curso Programación
 ### Indice
