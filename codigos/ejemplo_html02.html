@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Autos Honda Car</title>
+  <style>
+    body {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 2ch;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    body {
+      display: grid;
+      grid-template-areas:
+        "header header"
+        "nav nav"
+        "section aside"
+        "article aside"
+        "footer footer";
+      grid-template-columns: 3fr 1fr;
+      grid-template-rows: 10% 5% auto auto 10%;
+      gap: 10px;
+      flex: 1;
+    }
+
+    header {
+      grid-area: header;
+      background-color: #f8f8f8;
+      text-align: center;
+      border: 1px solid #ccc;
+      align-content: center;
+    }
+
+    nav {
+      grid-area: nav;
+      background-color: #e0e0e0;
+      text-align: center;
+      border: 1px solid #ccc;
+    }
+
+    main {
+      display: contents;
+      border: 2px solid red;
+    }
+
+    section {
+      grid-area: section;
+      padding: 20px;
+      border: 1px solid #ccc;
+      background-color: #f0f0f0;
+    }
+
+    aside {
+      grid-area: aside;
+      padding: 20px;
+      border: 1px solid #ccc;
+      background-color: #f0f0f0;
+    }
+
+    article {
+      grid-area: article;
+      padding: 20px;
+      border: 1px solid #ccc;
+      background-color: #f8f8f8;
+    }
+
+    footer {
+      grid-area: footer;
+      background-color: #d0d0d0;
+      text-align: center;
+      padding: 20px;
+      border: 1px solid #ccc;
+    }
+
+    nav>ul>li {
+      display: inline;
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+
+    main p {
+      text-align: justify;
+    }
+
+    aside img {
+      width: 100%;
+    }
+
+    article>section {
+      display: flex;
+      flex-direction: row;
+    }
+
+    article>section>figure {
+      flex: 1;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Bienvenidos a la página de Autos Honda Car</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#historia">Historia</a></li>
+      <li><a href="#modelos">Modelos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="historia">
+      <h1>Historia de Honda</h1>
+      <p>La historia de Honda en cuanto a la fabricación de coches pequeños y revolucionarios se remonta a la década
+        de
+        los 60. En 2002, demostramos que nuestra creatividad estaba más viva que nunca.
+        El Jazz fue un supermini con la amplitud de un vehículo familiar. Pusimos el depósito de combustible debajo de
+        los asientos delanteros, de modo que quedó más espacio en la parte trasera.
+        Luego aprovechamos al máximo este espacio inventando el asiento multiconfigurable, que se pliega, se inclina
+        hacia arriba y se sumerge. Nunca un asiento había sido tan práctico.
+        Para los conductores que necesitaban amplitud pero no querían renunciar al rendimiento, lanzamos el Honda
+        Stream: un modelo que combinaba el estilo de un coupé deportivo con la versatilidad de un monovolumen.
+      </p>
+      <h3>La década de los 90</h3>
+      <p>
+        Llevábamos años soñando con el desarrollo de un superdeportivo de altas prestaciones. Esta década permitió que
+        el sueño se hiciera realidad: el mismo Ayrton Senna colaboró en el desarrollo del NSX, cuya calidad obligó a
+        sus
+        rivales europeos a ponerse manos a la obra de inmediato.
+
+        Nacimiento del Type R: Presentamos nuestra línea "R" (de "Racing", "carreras" en inglés) en la década de 1990
+        y,
+        más tarde, modelos como el Civic Type R y el Accord Type R se unieron al roadster Honda S2000, en 1999.
+        Fue un regalo de 50.º cumpleaños para nosotros mismos el que trajo la actualización del S500 original.
+      </p>
+    </section>
+
+    <article id="modelos">
+      <h2>Modelos Destacados</h2>
+      <p>Honda ofrece una amplia gama de modelos que se adaptan a las necesidades de cualquier conductor, desde el
+        deportivo Civic hasta el espacioso CR-V.</p>
+      <section>
+        <figure>
+          <img
+            src="https://www.honda.es/content/dam/central/cars/generic/flyout/civic-type-r/23YM-Type-R-flyout.png/_jcr_content/renditions/c2.png"
+            alt="alt honda civic">
+          <figcaption>El Civic es un Full Hybrid autorrecargable, lo que significa que puede funcionar solo con
+            electricidad y no
+            hace falta enchufarlo.</figcaption>
+        </figure>
+        <figure>
+          <h2></h2>
+          <img
+            src="https://www.honda.es/content/dam/central/cars/generic/flyout/zr-v-hybrid/zr-v-hybrid-car-model.png/_jcr_content/renditions/c2.png"
+            alt="alt honda zrv" />
+          <figcaption>
+            El Honda ZR-V es nuestro nuevo SUV impulsado por la exclusiva tecnología Full Hybrid e:HEV de Honda.
+          </figcaption>
+        </figure>
+      </section>
+    </article>
+  </main>
+
+  <aside>
+    <h2>Premios</h2>
+    <figure>
+      <img
+        src="https://www.honda.es/content/dam/central/cars/world-of-honda/past/world-of-honda-racing-03-16x9-desktop.jpg/_jcr_content/renditions/c3.jpg"
+        alt="honda premio">
+      <figcaption>
+        El Honda RA271 hizo su debut en el Gran Premio de Alemania de 1964. En 1965 Richie Ginther a los mandos del
+        RA272 se proclamó ganador en México, consiguiendo nuestra primera victoria.
+      </figcaption>
+    </figure>
+    <figure>
+      <img
+        src="https://www.honda.es/content/dam/central/cars/world-of-honda/past/world-of-honda-racing-04-16x9.jpg/_jcr_content/renditions/c3.jpg"
+        alt="honda premio 2">
+      <figcaption>
+        Campeón del Mundo John Surtees pilotó para el equipo en 1967 y consiguió una memorable victoria en el
+        Gran Premio de Italia a los mandos del nuevo RA300.
+      </figcaption>
+    </figure>
+  </aside>
+
+  <footer id="contacto">
+    <p>Contacto: info@Hondaautos.com | Teléfono: +1 800 123 4567</p>
+    <p>&copy; 2024 Autos Honda. Todos los derechos reservados.</p>
+  </footer>
+</body>
+
+</html>
