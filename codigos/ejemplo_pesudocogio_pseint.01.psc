@@ -4,10 +4,10 @@ Algoritmo SumaDosNumeros
 	Definir numero2 Como Real;
 	Definir suma Como Real;
 	
-	Escribir "Ingrese primer numero1: ";
+	Escribir "Ingrese numero1: ";
 	leer numero1;
 	
-	Escribir "Ingrese primer numero2: ";
+	Escribir "Ingrese numero2: ";
 	leer numero2;
 	
 	suma = numero1 + numero2;
