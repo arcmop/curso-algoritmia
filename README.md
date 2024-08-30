@@ -9,10 +9,11 @@
 
 ### Curso Desarrollo Entornos Web
 1. [HTML - Basico](10.Html.md)
-2. [HTML - Semántica](10.HtmlSemantico.md)
-3. [HTML - Entities](14.HtmlEntities.md)
-4. [CSS - Basico](11.Css.md)
-5. [Javascript - Basico](12.Javascript.md)
+2. [HTML - HTML 5 Estructura base](15.HTML5Base.md)
+3. [HTML - Semántica](10.HtmlSemantico.md)
+4. [HTML - Entities](14.HtmlEntities.md)
+5. [CSS - Basico](11.Css.md)
+6. [Javascript - Basico](12.Javascript.md)
 
 ### Curso Programación
 ### Java
