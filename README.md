@@ -1,11 +1,15 @@
 # Cursos Informática y Computación
-### Algoritmia
+### Algoritmia y Programación Base
 1.  [Programación](01.Programacion.md)
 2.  [Programación: Estructuras](02.Estructuras.md)
 3.  [Programación: Algoritmo](02.Algoritmos.md)
 4.  [Programación: Diagramas de Flujo](02.DiagramasDeFlujo.md)
 5.  [Programación: Pseudocódigo](02.Pseudocodigo.md)
-6.  [Programación: Tipos de Programación](13.TiposProgramacion.md)
+6.  [Programación: Estructura For](02.EstructuraForI.md)
+7.  [Programación: Estructuras While](02.EstructuraWhile.md)
+8.  [programación: Estructura Do-WHile](02.EstructuraDoWhile.md)
+9.  [Programación: Estructura Switch](02.EstructuraSwitch.md)
+10. [Programación: Paradigmas de Programación](13.ParadigmasProgramacion.md)
 
 ### Curso Desarrollo Entornos Web
 1. [HTML - Basico](10.Html.md)

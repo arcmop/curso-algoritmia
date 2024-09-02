@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Ventas</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <main>
+        <form id="frmRegistro">
+            <h2>Registrar de Venta</h2>
+            <p>
+                <label>Producto</label>
+                <select id="cboProductos" name="cboProductos">
+                </select>
+            </p>
+            <p>
+                <label>Cantidad</label>
+                <input type="text" name="txtCantidad" id="txtCantidad">
+            </p>
+            <p class="botones">
+                <button id="btnRegistrar" type="button">Registrar</button>
+            </p>
+        </form>
+        <h2 class="titulotabla">Registro de ventas Diario</h2>
+        <table id="tblVentas">
+            <thead>
+                <th>#</th>
+                <th>Producto</th>
+                <th>Cantidad</th>
+                <th class="right-align">Subtotal</th>
+                <th class="right-align">IGV</th>
+                <th class="right-align">Total</th>
+            </thead>
+            <tbody>
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5" style="text-align: right;"><strong>Total Acumulado:</strong></td>
+                    <td id="totalAcumulado" style="text-align: right;">0.00</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    <script>
+        window.onload = inicializaSistema;
+    </script>
+</body>
+
+</html>
