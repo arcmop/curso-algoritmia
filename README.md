@@ -1,4 +1,9 @@
 # Cursos Informática y Computación
+### Computación
+1. [Computadora](01.Computadora.md)
+2. [Sistema Operativo](01.SistemaOperativo.md)
+3. [Principales Empresas](01.Empresas.md)
+
 ### Algoritmia y Programación Base
 1.  [Programación](01.Programacion.md)
 2.  [Programación: Estructuras](02.Estructuras.md)
@@ -11,7 +16,7 @@
 9.  [Programación: Estructura Switch](02.EstructuraSwitch.md)
 10. [Programación: Paradigmas de Programación](13.ParadigmasProgramacion.md)
 
-### Curso Desarrollo Entornos Web
+### Curso Desarrollo Entornos Web Base
 1. [HTML - Basico](10.Html.md)
 2. [HTML - HTML 5 Estructura base](15.HTML5Base.md)
 3. [HTML - Semántica](10.HtmlSemantico.md)
