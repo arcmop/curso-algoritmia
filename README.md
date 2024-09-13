@@ -39,3 +39,27 @@
 
 ## Curso Base de datos
 ### Indice
+
+## Más allá de lo Básico
+1.  Marcos Importantes y Organizaciones relevantes
+    |Nombre|Significado|Documentacion|
+    |---|---|---|
+    |SFIA|Skills Framework for the Information Age|[DOC](80.SFIA.md)
+    |SWEBOK|Software Engineering Body of Knowledge|[DOC](80.SWEBOK.md)
+    |TOGAF|The Open Group Architecture Framework|[DOC](80.TOGAF.md)
+    |COBIT|Control Objectives for Information and Related Technologies|[DOC](80.COBIT.md)
+    |ITIL|Information Technology Infrastructure Library|[DOC](80.ITIL.md)
+    |PMBOK|Project Management Body of Knowledge|[DOC](80.PMBOK.md)
+    |ITSQB|International Software Testing Qualifications Board|[DOC](80.ISTQB.md)
+    |NIST|National Institute of Standards and Technology|[DOC](80.NIST.md)
+    |COSO|Committee of Sponsoring Organizations of the Treadway Commission|[DOC](80.COSO.md)
+    |CIS|Center for Internet Security|[DOC](80.CIS.md)
+    |CMMI||
+2.  Agilidad
+    |Nombre|Significado|Documentacion|
+    |---|---|---|
+    |SCRUM|SCRUM|[DOC](80.SCRUM.md)
+    |AGILE|Agile|[DOC](80.AGILE.md)
+    |Software Craftsmanship|Artesanía del Software|[DOC](80.CRAFTSMANSHIP.md)
+    |SAFE||
+3.  
