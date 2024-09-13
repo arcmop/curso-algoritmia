@@ -42,6 +42,7 @@
 
 ## Más allá de lo Básico
 1.  Marcos Importantes y Organizaciones relevantes
+
     |Nombre|Significado|Documentacion|
     |---|---|---
     |SFIA|Skills Framework for the Information Age|[DOC](80.SFIA.md)
@@ -55,7 +56,9 @@
     |COSO|Committee of Sponsoring Organizations of the Treadway Commission|[DOC](80.COSO.md)
     |CIS|Center for Internet Security|[DOC](80.CIS.md)
     |CMMI||
+
 2.  Agilidad
+
     |Nombre|Significado|Documentacion|
     |---|---|---
     |SCRUM|SCRUM|[DOC](80.SCRUM.md)
