@@ -43,7 +43,7 @@
 ## Más allá de lo Básico
 1.  Marcos Importantes y Organizaciones relevantes
     |Nombre|Significado|Documentacion|
-    |---|---|---|
+    |---|---|---
     |SFIA|Skills Framework for the Information Age|[DOC](80.SFIA.md)
     |SWEBOK|Software Engineering Body of Knowledge|[DOC](80.SWEBOK.md)
     |TOGAF|The Open Group Architecture Framework|[DOC](80.TOGAF.md)
@@ -57,7 +57,7 @@
     |CMMI||
 2.  Agilidad
     |Nombre|Significado|Documentacion|
-    |---|---|---|
+    |---|---|---
     |SCRUM|SCRUM|[DOC](80.SCRUM.md)
     |AGILE|Agile|[DOC](80.AGILE.md)
     |Software Craftsmanship|Artesanía del Software|[DOC](80.CRAFTSMANSHIP.md)
