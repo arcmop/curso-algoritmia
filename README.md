@@ -55,14 +55,23 @@
     |NIST|National Institute of Standards and Technology|[DOC](80.NIST.md)
     |COSO|Committee of Sponsoring Organizations of the Treadway Commission|[DOC](80.COSO.md)
     |CIS|Center for Internet Security|[DOC](80.CIS.md)
-    |CMMI||
+    |CMMI|Capability Maturity Model Integration|[DOC](80.CMMI.md)
 
 2.  Agilidad
 
     |Nombre|Significado|Documentacion|
     |---|---|---
-    |SCRUM|SCRUM|[DOC](80.SCRUM.md)
     |AGILE|Agile|[DOC](80.AGILE.md)
+    |SCRUM|Scrum|[DOC](80.SCRUM.md)
+    |KANBAN|Kanban|[DOC](80.KANBAN.md)
     |Software Craftsmanship|Artesanía del Software|[DOC](80.CRAFTSMANSHIP.md)
-    |SAFE||
-3.  
+    |SAFE|Scaled Agile Framework|[DOC](80.SAFE.md)
+
+3.  Automatización
+
+    |Nombre|Significado|Documentacion|
+    |---|---|---
+    |DEVOPS|Development + Operaciones|[DOC](80.DEVOPS.md)
+    |SRE||[DOC](80.SRE.md)
+
+4.  
