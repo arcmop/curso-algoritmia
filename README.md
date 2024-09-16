@@ -21,8 +21,9 @@
 2. [HTML - HTML 5 Estructura base](15.HTML5Base.md)
 3. [HTML - Semántica](10.HtmlSemantico.md)
 4. [HTML - Entities](14.HtmlEntities.md)
-5. [CSS - Basico](11.Css.md)
-6. [Javascript - Basico](12.Javascript.md)
+5. [HTML - Entradas Visuales](16.HtmlVisuales.md)
+6. [CSS - Basico](11.Css.md)
+7. [Javascript - Basico](12.Javascript.md)
 
 ### Curso Programación
 ### Java
