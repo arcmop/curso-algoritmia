@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo de Radio Buttons en JavaScript</title>
+</head>
+
+<body>
+  <main>
+    <h1>Ejemplo de Botones de Opción (Radio)</h1>
+
+    <form id="formulario">
+      <p>Selecciona tu fruta favorita:</p>
+
+      <input type="radio" id="manzana" name="fruta" value="manzana">
+      <label for="manzana">Manzana</label><br>
+
+      <input type="radio" id="platano" name="fruta" value="platano">
+      <label for="platano">Plátano</label><br>
+
+      <input type="radio" id="cereza" name="fruta" value="cereza">
+      <label for="cereza">Cereza</label><br>
+      <br><br>
+      <!-- Botón para obtener la opción seleccionada -->
+      <button type="button" onclick="obtenerSeleccionada()">Obtener Seleccionada</button>
+    </form>
+
+    <p id="resultado"></p>
+
+    <script>
+      function obtenerSeleccionada() {
+        // Obtener la opción seleccionada del grupo de radio buttons
+        const seleccionada = document.querySelector('input[name="fruta"]:checked');
+
+        // Verificar si hay una opción seleccionada
+        if (seleccionada) {
+          // Mostrar el valor de la opción seleccionada
+          document.getElementById('resultado').textContent = 'Fruta seleccionada: ' + seleccionada.value;
+        } else {
+          // Si no hay ninguna opción seleccionada
+          document.getElementById('resultado').textContent = 'No se ha seleccionado ninguna fruta.';
+        }
+      }
+    </script>
+  </main>
+</body>
+
+</html>

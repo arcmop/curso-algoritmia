@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo de Checkbox en JavaScript</title>
+</head>
+
+<body>
+  <main>
+    <h1>Ejemplo de Casillas de Verificación (Checkbox)</h1>
+
+    <form id="formulario">
+      <p>Selecciona tus frutas favoritas:</p>
+
+      <input type="checkbox" id="manzana" name="frutas" value="manzana">
+      <label for="manzana">Manzana</label><br>
+
+      <input type="checkbox" id="platano" name="frutas" value="platano">
+      <label for="platano">Plátano</label><br>
+
+      <input type="checkbox" id="cereza" name="frutas" value="cereza">
+      <label for="cereza">Cereza</label><br>
+
+      <br><br><br>
+
+      <!-- Botón para obtener los valores seleccionados -->
+      <button type="button" onclick="obtenerSeleccionadas()">Obtener Seleccionadas</button>
+    </form>
+
+    <p id="resultado"></p>
+
+    <script>
+      function obtenerSeleccionadas() {
+        // Obtener todas las casillas de verificación del formulario
+        const checkboxes = document.querySelectorAll('input[name="frutas"]:checked');
+        const seleccionadas = [];
+
+        // Recorrer las casillas de verificación marcadas y obtener sus valores
+        checkboxes.forEach((checkbox) => {
+          seleccionadas.push(checkbox.value);
+        });
+
+        // Mostrar los valores seleccionados
+        document.getElementById('resultado').textContent = 'Frutas seleccionadas: ' + seleccionadas.join(', ');
+      }
+    </script>
+  </main>
+</body>
+
+</html>
