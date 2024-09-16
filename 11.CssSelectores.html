@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=<table class=" ws-table-all">
+  <style>
+    table{
+      width: 100%;
+    }
+    td{
+      border: 1px solid black;
+      padding-left: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <table style="border: 1px solid black;">
+    <tbody>
+      <tr>
+        <th style="width:20%">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selector</font>
+          </font>
+        </th>
+        <th style="width:20%">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Ejemplo</font>
+          </font>
+        </th>
+        <th>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Ejemplo de descripción</font>
+          </font>
+        </th>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_class.php">.<i>class</i></a></td>
+        <td class="notranslate">.intro</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona todos los elementos con clase="intro"</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><em>.class1.class2</em></td>
+        <td class="notranslate">.name1.name2</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona todos los elementos con </font>
+          </font><em>
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">nombre1</font>
+            </font>
+          </em>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;"> y </font>
+          </font><em>
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">nombre2</font>
+            </font>
+          </em>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;"> establecidos dentro de su atributo de clase</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><em>.class1 .class2</em></td>
+        <td class="notranslate">.name1 .name2</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona todos los elementos con </font>
+          </font><em>
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">nombre2</font>
+            </font>
+          </em>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;"> que sean descendientes de un elemento con </font>
+          </font><em>
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">nombre1</font>
+            </font>
+          </em>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_id.php">#<i>id</i></a></td>
+        <td class="notranslate">#firstname</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona el elemento con id="firstname"</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_all.php">*</a></td>
+        <td class="notranslate">*</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona todos los elementos</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><i><a href="sel_element.php">element</a></i></td>
+        <td class="notranslate">p</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona todos los elementos &lt;p&gt;</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><i><a href="sel_element_class.php">element.class</a></i></td>
+        <td class="notranslate">p.intro</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona todos los elementos &lt;p&gt; con clase="intro"</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><i><a href="sel_element_comma.php">element,element</a></i></td>
+        <td class="notranslate">div, p</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona todos los elementos &lt;div&gt; y todos los elementos
+              &lt;p&gt;</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_element_element.php"><i>element</i> <i>element</i></a></td>
+        <td class="notranslate">div p</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona todos los elementos &lt;p&gt; dentro de los elementos
+              &lt;div&gt;</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_element_gt.php"><i>element</i>&gt;<i>element</i></a></td>
+        <td class="notranslate">div &gt; p</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona todos los elementos &lt;p&gt; donde el padre es un
+              elemento
+              &lt;div&gt;</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_element_pluss.php"><i>element</i>+<i>element</i></a></td>
+        <td class="notranslate">div + p</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona el primer elemento &lt;p&gt; que se coloca inmediatamente
+              después de los elementos &lt;div&gt;</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_gen_sibling.php"><i>element1</i>~<i>element2</i></a></td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">p~ul</font>
+          </font>
+        </td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona cada elemento &lt;ul&gt; que esté precedido por un
+              elemento
+              &lt;p&gt;</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_attribute.php">[<i>attribute</i>]</a></td>
+        <td class="notranslate">[target]</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona todos los elementos con un atributo de destino</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_attribute_value.php">[<i>attribute</i>=<i>value</i>]</a></td>
+        <td class="notranslate">[target="_blank"]</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona todos los elementos con target="_blank"</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_attribute_value_contains.php">[<i>attribute</i>~=<i>value</i>]</a></td>
+        <td class="notranslate">[title~="flower"]</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona todos los elementos con un atributo de título que contenga
+              la palabra "flor"</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_attribute_value_lang.php">[<i>attribute</i>|=<i>value</i>]</a></td>
+        <td class="notranslate">[lang|="en"]</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona todos los elementos con un valor de atributo lang igual a
+              "en" o que comience con "en-"</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_attr_begin.php">[<i>attribute</i>^=<i>value</i>]</a></td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">a[href^="https"]</font>
+          </font>
+        </td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona cada elemento &lt;a&gt; cuyo valor de atributo href
+              comience
+              con "https"</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_attr_end.php">[<i>attribute</i>$=<i>value</i>]</a></td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">un[href$=".pdf"]</font>
+          </font>
+        </td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona cada elemento &lt;a&gt; cuyo valor de atributo href
+              termina
+              con ".pdf"</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_attr_contain.php">[<i>attribute</i>*=<i>value</i>]</a></td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">a[href*="w3escuelas"]</font>
+          </font>
+        </td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona cada elemento &lt;a&gt; cuyo valor de atributo href
+              contiene
+              la subcadena "w3schools"</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_active.php">:active</a></td>
+        <td class="notranslate">a:active</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona el enlace activo</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_after.php">::after</a></td>
+        <td class="notranslate">p::after</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Insertar algo después del contenido de cada elemento &lt;p&gt;</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_before.php">::before</a></td>
+        <td class="notranslate">p::before</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Insertar algo antes del contenido de cada elemento &lt;p&gt;</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_checked.php">:checked</a></td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Entrada: marcada</font>
+          </font>
+        </td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona cada elemento &lt;input&gt; marcado</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_default.php">:default</a></td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">entrada:predeterminada</font>
+          </font>
+        </td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona el elemento &lt;input&gt; predeterminado</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_disabled.php">:disabled</a></td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">entrada:deshabilitada</font>
+          </font>
+        </td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona todos los elementos &lt;input&gt; deshabilitados</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_empty.php">:empty</a></td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">p:vacío</font>
+          </font>
+        </td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona todos los elementos &lt;p&gt; que no tienen hijos
+              (incluidos
+              los nodos de texto)</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_enabled.php">:enabled</a></td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">entrada:habilitada</font>
+          </font>
+        </td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona todos los elementos &lt;input&gt; habilitados</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_firstchild.php">:first-child</a></td>
+        <td class="notranslate">p:first-child</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona cada elemento &lt;p&gt; que sea el primer hijo de su padre
+            </font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_firstletter.php">::first-letter</a></td>
+        <td class="notranslate">p::first-letter</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona la primera letra de cada elemento &lt;p&gt;</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_firstline.php">::first-line</a></td>
+        <td class="notranslate">p::first-line</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona la primera línea de cada elemento &lt;p&gt;</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_first-of-type.php">:first-of-type</a></td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">p:primero del tipo</font>
+          </font>
+        </td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona cada elemento &lt;p&gt; que sea el primer elemento
+              &lt;p&gt;
+              de su padre</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_focus.php">:focus</a></td>
+        <td class="notranslate">input:focus</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona el elemento de entrada que tiene el foco</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_fullscreen.php">:fullscreen</a></td>
+        <td class="notranslate">:fullscreen</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona el elemento que está en modo de pantalla completa</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_has.php">:has()</a></td>
+        <td class="notranslate">h2:has(+p)</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona elementos h2 que son seguidos inmediatamente por un
+              elemento
+              p y aplica el estilo a h2</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_hover.php">:hover</a></td>
+        <td class="notranslate">a:hover</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona enlaces al pasar el ratón por encima</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_in-range.php">:in-range</a></td>
+        <td class="notranslate">input:in-range</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona elementos de entrada con un valor dentro de un rango
+              especificado</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_indeterminate.php">:indeterminate</a></td>
+        <td class="notranslate">input:indeterminate</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona elementos de entrada que están en un estado indeterminado
+            </font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_invalid.php">:invalid</a></td>
+        <td class="notranslate">input:invalid</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona todos los elementos de entrada con un valor no válido
+            </font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_lang.php">:lang()</a></td>
+        <td class="notranslate">p:lang(it)</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona cada elemento &lt;p&gt; con un atributo lang igual a "it"
+              (italiano)</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_last-child.php">:last-child</a></td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">p:último hijo</font>
+          </font>
+        </td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona cada elemento &lt;p&gt; que sea el último hijo de su padre
+            </font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_last-of-type.php">:last-of-type</a></td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">p:último del tipo</font>
+          </font>
+        </td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona cada elemento &lt;p&gt; que sea el último elemento
+              &lt;p&gt;
+              de su padre</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_link.php">:link</a></td>
+        <td class="notranslate">a:link</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona todos los enlaces no visitados</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_marker.php">::marker</a></td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">::marcador</font>
+          </font>
+        </td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona los marcadores de los elementos de la lista.</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_not.php">:not()</a></td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">:no(p)</font>
+          </font>
+        </td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona todos los elementos que no sean elementos &lt;p&gt;</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_nth-child.php">:nth-child()</a></td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">p:n-ésimo-hijo(2)</font>
+          </font>
+        </td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona cada elemento &lt;p&gt; que sea el segundo hijo de su
+              padre
+            </font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_nth-last-child.php">:nth-last-child()</a></td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">p:n-ésimo-último-hijo(2)</font>
+          </font>
+        </td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona cada elemento &lt;p&gt; que sea el segundo hijo de su
+              padre,
+              contando desde el último hijo</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_nth-last-of-type.php">:nth-last-of-type()</a></td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">p:n-ésimo-último-del-tipo(2)</font>
+          </font>
+        </td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona cada elemento &lt;p&gt; que sea el segundo elemento
+              &lt;p&gt; de su padre, contando desde el último hijo</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_nth-of-type.php">:nth-of-type()</a></td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">p:n-ésimo-de-tipo(2)</font>
+          </font>
+        </td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona cada elemento &lt;p&gt; que sea el segundo elemento
+              &lt;p&gt; de su padre</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_only-of-type.php">:only-of-type</a></td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">p:solo-de-tipo</font>
+          </font>
+        </td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona cada elemento &lt;p&gt; que sea el único elemento
+              &lt;p&gt;
+              de su padre</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_only-child.php">:only-child</a></td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">p:hijo único</font>
+          </font>
+        </td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona cada elemento &lt;p&gt; que sea el único hijo de su padre
+            </font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_optional.php">:optional</a></td>
+        <td class="notranslate">input:optional</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona elementos de entrada sin atributo "requerido"</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_out-of-range.php">:out-of-range</a></td>
+        <td class="notranslate">input:out-of-range</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona elementos de entrada con un valor fuera de un rango
+              especificado</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_placeholder.php">::placeholder</a></td>
+        <td class="notranslate">input::placeholder</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona elementos de entrada con el atributo "placeholder"
+              especificado</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_read-only.php">:read-only</a></td>
+        <td class="notranslate">input:read-only</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona elementos de entrada con el atributo "readonly"
+              especificado
+            </font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_read-write.php">:read-write</a></td>
+        <td class="notranslate">input:read-write</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona elementos de entrada con el atributo "readonly" NO
+              especificado</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_required.php">:required</a></td>
+        <td class="notranslate">input:required</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona elementos de entrada con el atributo "requerido"
+              especificado</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_root.php">:root</a></td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">:raíz</font>
+          </font>
+        </td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona el elemento raíz del documento.</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_selection.php">::selection</a></td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">::selección</font>
+          </font>
+        </td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona la parte de un elemento que es seleccionada por un usuario
+            </font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_target.php">:target</a></td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">#noticias:objetivo</font>
+          </font>
+        </td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona el elemento #news activo actual (se hizo clic en una URL
+              que
+              contiene ese nombre de ancla)</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_valid.php">:valid</a></td>
+        <td class="notranslate">input:valid</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona todos los elementos de entrada con un valor válido</font>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td class="notranslate"><a href="sel_visited.php">:visited</a></td>
+        <td class="notranslate">a:visited</td>
+        <td>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Selecciona todos los enlaces visitados</font>
+          </font>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
