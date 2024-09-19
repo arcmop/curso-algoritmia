@@ -23,7 +23,8 @@
 4. [HTML - Entities](14.HtmlEntities.md)
 5. [HTML - Entradas Visuales](16.HtmlVisuales.md)
 6. [CSS - Basico](11.Css.md)
-7. [Javascript - Basico](12.Javascript.md)
+7. [CSS - Fuentes](11.CssFuentes.md)
+8. [Javascript - Basico](12.Javascript.md)
 
 ### Curso Programación
 ### Java
