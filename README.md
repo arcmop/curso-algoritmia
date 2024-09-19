@@ -22,11 +22,13 @@
 3. [HTML - Semántica](10.HtmlSemantico.md)
 4. [HTML - Entities](14.HtmlEntities.md)
 5. [HTML - Entradas Visuales](16.HtmlVisuales.md)
-6. [CSS - Basico](11.Css.md)
-7. [CSS - Fuentes](11.CssFuentes.md)
-8. [CSS - Bootstrapp](11.CssBootstrap.md)
-9. [Diseño Web - Sketch, Wirefram, Mockup y Prototipos](11.DisenoAplicaciones.md)
-10. [Javascript - Basico](12.Javascript.md)
+6. [🥼 PROYECTO 01 - HTML](18.Proyecto01Html.md)
+7. [CSS - Basico](11.Css.md)
+8. [CSS - Fuentes](11.CssFuentes.md)
+9. [CSS - Bootstrapp](11.CssBootstrap.md)
+10. [🥼 PROYECTO 01 - CSS](18.Proyecto01CSS.md)
+11. [Diseño Web - Sketch, Wirefram, Mockup y Prototipos](11.DisenoAplicaciones.md)
+12. [Javascript - Basico](12.Javascript.md)
 
 ### Curso Programación
 ### Java
