@@ -1,0 +1,106 @@
+body {
+  font-family: 'Muli';
+}
+
+main{
+  box-shadow: 1px 1px 5px #222;
+}
+
+main {
+  margin-top: 1rem;
+  width: 50%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+/*CSS Formulario*/
+#frmRegistro {
+  width: 100%;
+  margin-top: -1rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: beige;
+  padding-top: 10px;
+}
+
+#frmRegistro > div{
+  /* padding-top: 5px; */
+  padding-bottom: 10px;
+  display: flex;
+}
+
+#frmRegistro label{
+  display: inline-table;
+  width: 40%;
+  padding-left: 10px;
+}
+
+#frmRegistro select{
+  flex: 1;
+  margin-right: 10px;
+}
+
+#frmRegistro input[type="text"]{
+  flex: 1;
+  text-align: center;
+  margin-right: 10px;
+} 
+
+#frmRegistro input[type="radio"]{
+  margin-right: 10px;
+} 
+
+#frmRegistro input[type="radio"]:nth-child(3){
+  margin-left: 10px;
+} 
+
+.botones {
+  text-align: center;
+  justify-content: center;
+}
+
+.botones > button[type="reset"]{
+  margin-right: 5px;
+}
+
+.botones > button[type="button"]{
+  margin-left: 5px;
+}
+
+/*CSS Tabla*/
+#tblVentas {
+  width: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#tblVentas th {
+  padding: 5px;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.row :nth-child(odd){
+  background-color:red;
+}
+.row :nth-child(even){
+  background-color:green;
+}
