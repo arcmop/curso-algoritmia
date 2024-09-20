@@ -1,125 +1,109 @@
 ```css
-/* Establece la fuente por defecto para todo el cuerpo del documento */
+/* Estilo para el cuerpo de la página */
 body {
-  font-family: 'Muli';
+  font-family: 'Muli'; /* Aplica la fuente 'Muli' a todo el contenido de la página */
 }
 
-/* Aplica una sombra a los elementos main para dar un efecto de elevación */
+/* Estilos para el elemento principal */
 main {
-  box-shadow: 1px 1px 5px #222; /* Sombra suave con un color oscuro */
+  box-shadow: 1px 1px 5px #222; /* Añade una sombra alrededor del elemento principal con un desplazamiento de 1px en x e y y un desenfoque de 5px */
 }
 
-/* Establece el ancho y el margen del main para centrarlo y limitar su tamaño */
 main {
-  margin-top: 1rem; /* Espacio superior */
-  width: 50%; /* Ancho del 50% del contenedor padre */
-  max-width: 100%; /* Ancho máximo no excede el 100% */
-  margin-left: auto; /* Centrado horizontal */
-  margin-right: auto; /* Centrado horizontal */
+  margin-top: 1rem; /* Añade un margen superior de 1rem */
+  width: 50%; /* Define el ancho del main al 50% del contenedor padre */
+  max-width: 100%; /* Establece un ancho máximo del 100% para evitar desbordamientos */
+  margin-left: auto; /* Centra el elemento horizontalmente */
+  margin-right: auto; /* Centra el elemento horizontalmente */
 }
 
-/* Centra el texto de todos los h2 */
+/* Estilos para los encabezados de segundo nivel */
 h2 {
-  text-align: center;
+  text-align: center; /* Centra el texto del encabezado h2 */
 }
 
-/* CSS para el formulario */
+/* CSS para el formulario de registro */
 #frmRegistro {
-  width: 100%; /* Ocupa todo el ancho del contenedor */
-  margin-top: -1rem; /* Margen superior negativo para reducir espacio */
-  margin-left: auto; /* Centrado horizontal */
-  margin-right: auto; /* Centrado horizontal */
-  display: flex; /* Usa flexbox para la disposición de los hijos */
-  flex-direction: column; /* Dispone los elementos hijos en columna */
-  background-color: beige; /* Color de fondo beige */
-  padding-top: 10px; /* Espacio superior interno */
+  width: 100%; /* Ocupa el 100% del ancho disponible */
+  margin-top: -1rem; /* Margen superior negativo para ajustar la posición */
+  margin-left: auto; /* Centra el formulario horizontalmente */
+  margin-right: auto; /* Centra el formulario horizontalmente */
+  display: flex; /* Define un contenedor flexible */
+  flex-direction: column; /* Alinea los elementos dentro del contenedor de manera vertical */
+  background-color: beige; /* Fondo de color beige */
+  padding-top: 10px; /* Añade un padding superior de 10px */
 }
 
+/* Estilos para los divs hijos del formulario de registro */
 #frmRegistro > div {
-  /* padding-top: 5px;  Margen superior comentado, posiblemente para ajustar espacio */
-  padding-bottom: 10px; /* Espacio inferior interno */
-  display: flex; /* Uso de flexbox para disposición de los elementos hijos */
+  /* padding-top: 5px;  Comentado: Añadir espacio superior en cada div hijo del formulario */
+  padding-bottom: 10px; /* Añade un padding inferior de 10px */
+  display: flex; /* Aplica un contenedor flexible a los divs */
+  column-gap: 10px; /* Espacio de 10px entre columnas de los elementos hijos */
 }
 
-/* Estilo para las etiquetas del formulario */
+/* Estilos para los labels dentro del formulario de registro */
 #frmRegistro label {
-  display: inline-table; /* Hace que la etiqueta se comporte como una tabla */
-  width: 40%; /* Ancho del 40% del contenedor padre */
-  padding-left: 10px; /* Espacio a la izquierda */
+  display: inline-table; /* Muestra los labels como tablas inline para un mejor control de alineación */
+  width: 40%; /* Define el ancho del label como el 40% del contenedor padre */
+  padding-left: 10px; /* Añade un padding izquierdo de 10px */
 }
 
-/* Estilo para los elementos select dentro del formulario */
+/* Estilos para los select dentro del formulario de registro */
 #frmRegistro select {
-  flex: 1; /* Ocupa todo el espacio disponible en su contenedor flex */
-  margin-right: 10px; /* Espacio a la derecha */
+  flex: 1; /* Hace que el select se expanda para llenar el espacio disponible */
+  margin-right: 10px; /* Añade un margen derecho de 10px */
 }
 
-/* Estilo para los inputs de tipo texto dentro del formulario */
+/* Estilos para los inputs de tipo texto dentro del formulario de registro */
 #frmRegistro input[type="text"] {
-  flex: 1; /* Ocupa todo el espacio disponible en su contenedor flex */
-  text-align: center; /* Alinea el texto al centro */
-  margin-right: 10px; /* Espacio a la derecha */
-} 
-
-/* Estilo para los inputs de tipo radio dentro del formulario */
-#frmRegistro input[type="radio"] {
-  margin-right: 10px; /* Espacio a la derecha */
-} 
-
-/* Estilo específico para el tercer input de tipo radio */
-#frmRegistro input[type="radio"]:nth-child(3) {
-  margin-left: 10px; /* Espacio a la izquierda */
+  flex: 1; /* Hace que el input se expanda para llenar el espacio disponible */
+  text-align: center; /* Centra el texto dentro del input */
+  margin-right: 10px; /* Añade un margen derecho de 10px */
 }
 
-/* Estilos para la sección de botones */
+/* Estilos para los contenedores de botones */
 .botones {
   text-align: center; /* Centra el texto */
-  justify-content: center; /* Centra el contenido dentro de un contenedor flex (si aplica) */
+  justify-content: center; /* Centra los elementos hijos dentro del contenedor */
+  gap: 10px; /* Añade un espacio de 10px entre los botones */
 }
 
-/* Estilo para el botón de tipo reset dentro de botones */
-.botones > button[type="reset"] {
-  margin-right: 5px; /* Espacio a la derecha */
-}
-
-/* Estilo para el botón de tipo button dentro de botones */
-.botones > button[type="button"] {
-  margin-left: 5px; /* Espacio a la izquierda */
-}
-
-/* CSS para la tabla */
+/* CSS para la tabla de ventas */
 #tblVentas {
-  width: 100%; /* Ocupa todo el ancho disponible */
-  max-width: 100%; /* No excede el 100% de ancho */
-  margin-left: auto; /* Centrado horizontal */
-  margin-right: auto; /* Centrado horizontal */
+  width: 100%; /* La tabla ocupa el 100% del ancho disponible */
+  max-width: 100%; /* Establece un ancho máximo del 100% para evitar desbordamientos */
+  margin-left: auto; /* Centra la tabla horizontalmente */
+  margin-right: auto; /* Centra la tabla horizontalmente */
 }
 
-/* Estilo para las celdas de encabezado de la tabla */
+/* Estilos para los encabezados de la tabla de ventas */
 #tblVentas th {
-  padding: 5px; /* Espacio interno alrededor del texto */
+  padding: 5px; /* Añade un padding de 5px alrededor de los encabezados */
 }
 
-/* Clases de alineación de texto */
+/* Clase para alinear el texto al centro */
 .center-align {
-  text-align: center; /* Alinea el texto al centro */
+  text-align: center; /* Centra el texto */
 }
 
+/* Clase para alinear el texto a la izquierda */
 .left-align {
   text-align: left; /* Alinea el texto a la izquierda */
 }
 
+/* Clase para alinear el texto a la derecha */
 .right-align {
   text-align: right; /* Alinea el texto a la derecha */
 }
 
-/* Estilos alternos para filas de una tabla o contenedor */
+/* Estilos para filas de una clase row; alterna colores de fondo */
 .row :nth-child(odd) {
-  background-color: red; /* Color de fondo rojo para elementos impares */
+  background-color: red; /* Aplica color de fondo rojo a las filas impares */
 }
 
 .row :nth-child(even) {
-  background-color: green; /* Color de fondo verde para elementos pares */
+  background-color: green; /* Aplica color de fondo verde a las filas pares */
 }
 
 ```

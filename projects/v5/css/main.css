@@ -34,6 +34,7 @@ h2 {
   /* padding-top: 5px; */
   padding-bottom: 10px;
   display: flex;
+  column-gap: 10px; 
 }
 
 #frmRegistro label{
@@ -53,25 +54,10 @@ h2 {
   margin-right: 10px;
 } 
 
-#frmRegistro input[type="radio"]{
-  margin-right: 10px;
-} 
-
-#frmRegistro input[type="radio"]:nth-child(3){
-  margin-left: 10px;
-} 
-
 .botones {
   text-align: center;
   justify-content: center;
-}
-
-.botones > button[type="reset"]{
-  margin-right: 5px;
-}
-
-.botones > button[type="button"]{
-  margin-left: 5px;
+  gap: 10px; 
 }
 
 /*CSS Tabla*/
