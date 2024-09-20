@@ -8,16 +8,19 @@
   <title>Registro de Ventas</title>
   <link href="https://fonts.cdnfonts.com/css/muli" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet" />
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
 </head>
 
 <body>
   <main>
-    <h2>Registrar de Venta</h2>
+    <h2 class="card-header alert alert-primary">Registrar de Venta</h2>
     <form id="frmRegistro">
       <div>
         <label>Producto</label>
-        <select id="cboProductos" name="cboProductos">
+        <select id="cboProductos" name="cboProductos" class="custom-select">
           <option value="1">Laptop ASUS ROG</option>
           <option value="2">Laptop Lenovo Z14</option>
           <option value="3">Laptop HP 8050 v3</option>
@@ -26,41 +29,41 @@
       </div>
       <div>
         <label>Cantidad</label>
-        <input type="text" name="txtCantidad" id="txtCantidad">
+        <input type="text" name="txtCantidad" id="txtCantidad" class="form-control">
       </div>
       <div>
         <label>Color</label>
-        <input type="radio" name="radioColor" value="Negro" />Negro
-        <input type="radio" name="radioColor" value="Plateado" />Plateado
+        <input type="radio" name="radioColor" value="Negro" class="form-check-input" />Negro
+        <input type="radio" name="radioColor" value="Plateado"  class="form-check-input"/>Plateado
       </div>
       <div>
         <label>Boleta Electrónica</label>
-        <input type="checkbox" name="checkBoleta" value="si" />
+        <input type="checkbox" name="checkBoleta" value="si" class="form-check-label" />
       </div>
       <div class="botones">
-        <button id="btnLimpiar" type="reset">
+        <button id="btnLimpiar" type="reset" class="btn btn-secondary">
           <i class="fa-regular fa-file"></i>
           Limpiar
         </button>
-        <button id="btnRegistrar" type="button">
+        <button id="btnRegistrar" type="button" class="btn btn-primary">
           <i class="fa-regular fa-floppy-disk"></i>
           Registrar
         </button>
       </div>
     </form>
-    <h2 class="titulotabla">Registro de ventas Diario</h2>
-    <table id="tblVentas">
+    <h2 class="card-header alert alert-primary">Registro de ventas Diario</h2>
+    <table id="tblVentas" class="table">
       <thead>
         <tr>
-          <th>#</th>
-          <th>Fecha y Hora</th> <!-- Nueva columna para Fecha y Hora -->
-          <th>Producto</th>
-          <th>Color</th>
-          <th>Boleta-E</th>
-          <th>Cantidad</th>
-          <th>Subtotal</th>
-          <th>IGV</th>
-          <th>Total</th>
+          <th class="center-align" scope="col">#</th>
+          <th class="center-align" scope="col">Fecha y Hora</th> <!-- Nueva columna para Fecha y Hora -->
+          <th scope="col">Producto</th>
+          <th class="center-align" scope="col">Color</th>
+          <th class="center-align" scope="col">Boleta-E</th>
+          <th class="center-align" scope="col">Cantidad</th>
+          <th class="right-align" scope="col">Subtotal</th>
+          <th class="right-align" scope="col">IGV</th>
+          <th class="right-align" scope="col">Total</th>
         </tr>
       </thead>
       <tbody>
