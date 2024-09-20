@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Ventas</title>
+  <link href="https://fonts.cdnfonts.com/css/muli" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link href="css/main.css" rel="stylesheet" />
+</head>
+
+<body>
+  <main>
+    <h2>Registrar de Venta</h2>
+    <form id="frmRegistro">
+      <div>
+        <label>Producto</label>
+        <select id="cboProductos" name="cboProductos">
+          <option value="1">Laptop ASUS ROG</option>
+          <option value="2">Laptop Lenovo Z14</option>
+          <option value="3">Laptop HP 8050 v3</option>
+        </select>
+        </select>
+      </div>
+      <div>
+        <label>Cantidad</label>
+        <input type="text" name="txtCantidad" id="txtCantidad">
+      </div>
+      <div>
+        <label>Color</label>
+        <input type="radio" name="radioColor" value="Negro" />Negro
+        <input type="radio" name="radioColor" value="Plateado" />Plateado
+      </div>
+      <div>
+        <label>Boleta Electrónica</label>
+        <input type="checkbox" name="checkBoleta" value="si" />
+      </div>
+      <div class="botones">
+        <button id="btnLimpiar" type="reset">
+          <i class="fa-regular fa-file"></i>
+          Limpiar
+        </button>
+        <button id="btnRegistrar" type="button">
+          <i class="fa-regular fa-floppy-disk"></i>
+          Registrar
+        </button>
+      </div>
+    </form>
+    <h2 class="titulotabla">Registro de ventas Diario</h2>
+    <table id="tblVentas">
+      <thead>
+        <tr>
+          <th class="center-align">#</th>
+          <th class="center-align">Fecha y Hora</th> <!-- Nueva columna para Fecha y Hora -->
+          <th>Producto</th>
+          <th class="center-align">Color</th>
+          <th class="center-align">Boleta-E</th>
+          <th class="center-align">Cantidad</th>
+          <th class="right-align">Subtotal</th>
+          <th class="right-align">IGV</th>
+          <th class="right-align">Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Las filas se agregarán dinámicamente aquí -->
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="8" style="text-align: right;">
+            <strong>
+              <i class="fa-solid fa-table-list"></i>
+              Total Acumulado:
+            </strong>
+          </td>
+          <td id="totalAcumulado" style="text-align: right;">0.00</td>
+        </tr>
+      </tfoot>
+    </table>
+  </main>
+</body>
+
+</html>
