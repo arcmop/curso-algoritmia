@@ -80,4 +80,10 @@
     |DEVOPS|Development + Operaciones|[DOC](80.DEVOPS.md)
     |SRE||[DOC](80.SRE.md)
 
-4.  
+4.  Datos Sueltos
+    1.  [Teorema de CAP](19.TeoremaCAP.md)
+    2.  [Ley de Moore](19.LeyMoore.md)
+    3.  [Ley de Kryder](19.LeyKryder.md)
+    4.  [Ley de Wirth](19.LeyWorth.md)
+    5.  [Ley de Dennard](19.LeyDennard.md)
+5.  
