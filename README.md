@@ -16,7 +16,7 @@
 9.  [Programación: Estructura Switch](02.EstructuraSwitch.md)
 10. [Programación: Paradigmas de Programación](13.ParadigmasProgramacion.md)
 
-### Curso Desarrollo Entornos Web Base
+### Desarrollo Entornos Web Base
 1. [HTML - Basico](10.Html.md)
 2. [HTML - HTML 5 Estructura base](15.HTML5Base.md)
 3. [HTML - Semántica](10.HtmlSemantico.md)
@@ -31,7 +31,7 @@
 12. [Diseño Web - Sketch, Wirefram, Mockup y Prototipos](11.DisenoAplicaciones.md)
 13. [Javascript - Basico](12.Javascript.md)
 
-### Curso Programación
+### Programación
 ### Java
 1. [Java - Intro](13.JavaIntro.md)
 2. [Java - Tipos de Datos](02.tipos.md)
@@ -44,8 +44,13 @@
 9. [Java - Interacción con el usuario: Leer datos Usuario desde UI](09.LeerDatosUsuario_UI.md)
 10. [Java - Ejemplo Basico 01 - Completo](100.Ejemplo01.md)
 
-## Curso Base de datos
-### Indice
+## Base de datos
+1.  [Tipos de Base de datos](20.BaseDatosTipos.md)
+2.  [DBMS y RDBMS](20.DBMSRDBMS.md)
+3.  [OLAP y OLTP](20.OLAPyOLTP.md)
+4.  [SQL](20.SQL.md)
+5.  [Modelo ACID](20.ModeloACID.md)
+
 
 ## Más allá de lo Básico
 1.  Marcos Importantes y Organizaciones relevantes
@@ -88,3 +93,12 @@
     4.  [Ley de Wirth](19.LeyWorth.md)
     5.  [Ley de Dennard](19.LeyDennard.md)
 5.  
+
+## Cursos Gratuitos en Español
+1.  [Cisco NetAcad - Conceptos Básicos de Hardware de Computadora - (Badge)](https://www.netacad.com/es/courses/computer-hardware-basics?courseLang=es-XL)
+2.  [Cisco NetAcad - Fundamentos de Python 1 - (Badge)](https://www.netacad.com/es/courses/python-essentials-1?courseLang=es-XL)
+3.  [Cisco NetAcad - Introducción a Ciberseguridad - (Badge)](https://www.netacad.com/es/courses/introduction-to-cybersecurity?courseLang=es-XL)
+
+## Cursos Gratuitos en Inglés
+1.  [Cisco NetAcad - JavaScript Essentials 1 - (Inglés)](https://www.netacad.com/es/courses/javascript-essentials-1?courseLang=en-US)
+2.  
