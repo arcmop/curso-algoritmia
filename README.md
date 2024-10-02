@@ -50,6 +50,7 @@
 3.  [OLAP y OLTP](20.OLAPyOLTP.md)
 4.  [SQL](20.SQL.md)
 5.  [Modelo ACID](20.ModeloACID.md)
+6.  [Tablas]
 
 
 ## Más allá de lo Básico
