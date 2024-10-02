@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agregar Filas con Entrada de Usuario</title>
+</head>
+
+<body>
+
+  <h2>Agregar Productos a la Tabla</h2>
+  <label for="producto">Producto:</label>
+  <input type="text" id="producto" placeholder="Nombre del producto">
+  <label for="precio">Precio:</label>
+  <input type="text" id="precio" placeholder="Precio">
+
+  <button onclick="agregarFila()">Agregar Fila</button>
+
+  <table id="miTabla" border="1">
+    <thead>
+      <tr>
+        <th>Producto</th>
+        <th>Precio</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Manzanas</td>
+        <td>$2.00</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <script>
+    function agregarFila() {
+      // Obtenemos los valores del input
+      var producto = document.getElementById("producto").value;
+      var precio = document.getElementById("precio").value;
+
+      // Validamos que no estén vacíos
+      if (producto === "" || precio === "") {
+        alert("Por favor, llena ambos campos.");
+        return;
+      }
+
+      // 1. Accedemos a la tabla
+      var tabla = document.getElementById("miTabla");
+
+      // 2. Insertamos una nueva fila al final
+      var nuevaFila = tabla.insertRow();
+
+      // 3. Insertamos celdas
+      var celda1 = nuevaFila.insertCell(0);
+      var celda2 = nuevaFila.insertCell(1);
+
+      // 4. Asignamos los valores de entrada a las celdas
+      celda1.textContent = producto;
+      celda2.textContent = precio;
+
+      // Limpiar los campos después de agregar la fila
+      document.getElementById("producto").value = "";
+      document.getElementById("precio").value = "";
+    }
+  </script>
+
+</body>
+
+</html>

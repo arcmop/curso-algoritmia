@@ -30,6 +30,18 @@
 11. [🥼 PROYECTO 01 - CSS](18.Proyecto01CSS.md)
 12. [Diseño Web - Sketch, Wirefram, Mockup y Prototipos](11.DisenoAplicaciones.md)
 13. [Javascript - Basico](12.Javascript.md)
+14. [Javascript - Uso en browser](12.JavascriptUso01.md)
+15. [Javascript - Acceder a elementos HTML](12.JavascriptUso02.md)
+16. [Javascript - Manipular Tablas](12.JavascriptTablas.md)
+17. [Javascript - Fechas](12.JavascriptFechas.md)
+18. [Javascript - Datos numéricos](12.JavascriptNumeros.md)
+19. [🥼 PROYECTO 01 - JS](12.Proyecto01JS.md)
+20. Herramientas online para probar
+       1. https://jsbin.com/?htmlcss,js,output
+       2. https://playcode.io/empty_html
+       3. https://onecompiler.com/html/
+       4. https://jsfiddle.net/     
+       5. https://developer.mozilla.org/es/play
 
 ### Programación
 ### Java
