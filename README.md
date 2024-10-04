@@ -28,7 +28,7 @@
 9. [CSS - Fuentes](11.CssFuentes.md)
 10. [CSS - Bootstrapp](11.CssBootstrap.md)
 11. [🥼 PROYECTO 01 - CSS](18.Proyecto01CSS.md)
-12. [Diseño Web - Sketch, Wirefram, Mockup y Prototipos](11.DisenoAplicaciones.md)
+12. [Diseño Web - Sketch, Wireframe, Mockup y Prototipos](11.DisenoAplicaciones.md)
 13. [Javascript - Basico](12.Javascript.md)
 14. [Javascript - Uso en browser](12.JavascriptUso01.md)
 15. [Javascript - Acceder a elementos HTML](12.JavascriptUso02.md)
@@ -37,11 +37,11 @@
 18. [Javascript - Datos numéricos](12.JavascriptNumeros.md)
 19. [🥼 PROYECTO 01 - JS](12.Proyecto01JS.md)
 20. Herramientas online para probar
-       1. https://jsbin.com/?htmlcss,js,output
-       2. https://playcode.io/empty_html
-       3. https://onecompiler.com/html/
-       4. https://jsfiddle.net/     
-       5. https://developer.mozilla.org/es/play
+       1. [https://jsbin.com/?html,css,js,output](https://jsbin.com/?html,css,js,output)
+       2. [https://playcode.io/empty_html](https://playcode.io/empty_html)
+       3. [https://onecompiler.com/html/](https://onecompiler.com/html/)
+       4. [https://jsfiddle.net/](https://jsfiddle.net/)
+       5. [https://developer.mozilla.org/es/play](https://developer.mozilla.org/es/play)
 
 ### Programación
 ### Java
@@ -65,6 +65,12 @@
 6.  [Tablas](20.SQLTablas.md)
 7.  [Relaciones entre Tablas](20.SQLRelacionesTablas.md)
 
+## Modelado
+1.  [UML - Unified Modeling Language](22.UML.md)
+2.  [BPM - Business Process Management](22.BPM.md)
+
+## Herramientas
+1.  [Git](21.ToolsGit.md)
 
 ## Más allá de lo Básico
 1.  Marcos Importantes y Organizaciones relevantes
