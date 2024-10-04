@@ -4,6 +4,11 @@ function cargaProductos() {
   // Seleccionar el elemento <select> del DOM
   const productoSelect = document.getElementById("cboProductos");
 
+  const optionDefault = document.createElement("option");
+  optionDefault.value = "-1";
+  optionDefault.textContent = "Seleccione producto";
+  productoSelect.appendChild(optionDefault);
+
   productos.forEach(producto => {
     const option = document.createElement("option");
     option.value = producto.id; // Valor del <option>
