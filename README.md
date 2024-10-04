@@ -42,6 +42,7 @@
        3. [https://onecompiler.com/html/](https://onecompiler.com/html/)
        4. [https://jsfiddle.net/](https://jsfiddle.net/)
        5. [https://developer.mozilla.org/es/play](https://developer.mozilla.org/es/play)
+21. [Resumen](23.Proyecto01Resumen.md)
 
 ### Programación
 ### Java
@@ -71,6 +72,7 @@
 
 ## Herramientas
 1.  [Git](21.ToolsGit.md)
+2.  [Draw.io](21.ToolsDrawio.md)
 
 ## Más allá de lo Básico
 1.  Marcos Importantes y Organizaciones relevantes
