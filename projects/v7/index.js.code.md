@@ -1,24 +1,3 @@
-
-## Archivo data.js
-
-```js
-const productos = [
-    {
-        id: 1,
-        nombre: "Laptop ASUS ROG",
-        precio: 1500.00
-    }, {
-        id: 2,
-        nombre: "Laptop Lenovo Z14",
-        precio: 2500.50
-    }, {
-        id: 3,
-        nombre: "Laptop HP 8050 v3",
-        precio: 950.50
-    }
-];
-```
-
 ## Archivo main.js
 
 ```js
@@ -27,20 +6,41 @@ window.onload = inicializaSistema;
 function cargaProductos() {
   // Seleccionar el elemento <select> del DOM
   const productoSelect = document.getElementById("cboProductos");
-  const optionDefault = document.createElement("option");
-  optionDefault.value = "-1";
-  optionDefault.textContent = "Seleccione producto";
-  productoSelect.appendChild(optionDefault);
 
-  productos.forEach(producto => {
-    const option = document.createElement("option");
-    option.value = producto.id; // Valor del <option>
-    option.textContent = producto.nombre; // Texto que se mostrará
-    productoSelect.appendChild(option); // Agregar la opción al <select>
-  });
+  // URL de la API que devuelve los productos
+  const apiUrl = 'https://api01-zs2cwdyp.b4a.run/productos';
+
+  // Usamos fetch para consumir la API
+  fetch(apiUrl)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Error en la respuesta de la API');
+      }
+      return response.json(); // Convertimos la respuesta a JSON
+    })
+    .then(productos => {
+      const optionDefault = document.createElement("option");
+      optionDefault.value = "-1";
+      optionDefault.textContent = "Seleccione producto";
+      productoSelect.appendChild(optionDefault);
+
+      const listaProductos = document.getElementById('lista-productos');
+
+      // Iteramos sobre los productos y los agregamos al DOM
+      productos.forEach(producto => {
+        const option = document.createElement("option");
+        option.value = producto.id; // Valor del <option>
+        option.textContent = producto.nombre; // Texto que se mostrará
+        productoSelect.appendChild(option); // Agregar la opción al <select>
+      });
+      creaEventos(productos);
+    })
+    .catch(error => {
+      console.error('Hubo un error al consumir la API:', error);
+    });
 }
 
-function creaEventos() {
+function creaEventos(productos) {
   document.getElementById('btnRegistrar').addEventListener('click', function () {
     // Obtener la tabla y su cuerpo
     const tabla = document.getElementById('tblVentas').getElementsByTagName('tbody')[0];
@@ -152,6 +152,5 @@ function actualizarTotalAcumulado() {
 
 function inicializaSistema() {
   cargaProductos();
-  creaEventos();
 }
 ```
