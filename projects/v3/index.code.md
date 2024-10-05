@@ -18,6 +18,7 @@
       <div>
         <label>Producto</label>
         <select id="cboProductos" name="cboProductos">
+          <option value="-1">Seleccione producto</option>
           <option value="1">Laptop ASUS ROG</option>
           <option value="2">Laptop Lenovo Z14</option>
           <option value="3">Laptop HP 8050 v3</option>
