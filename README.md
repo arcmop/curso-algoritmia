@@ -115,7 +115,16 @@
     3.  [Ley de Kryder](19.LeyKryder.md)
     4.  [Ley de Wirth](19.LeyWorth.md)
     5.  [Ley de Dennard](19.LeyDennard.md)
-5.  
+
+5.  Mejores Prácticas
+    
+    |Descripcion|Enlace|
+    |---|---|
+    |Semantic Versioning 2.0.0|[https://semver.org](https://semver.org)
+    |Conventional Branch|[conventional-branch.github.io](https://conventional-branch.github.io)
+    |Conventional Commits|[www.conventionalcommits.org](https://www.conventionalcommits.org)
+    
+6.  
 
 ## Cursos Gratuitos en Español
 1.  [Cisco NetAcad - Conceptos Básicos de Hardware de Computadora - (Badge)](https://www.netacad.com/es/courses/computer-hardware-basics?courseLang=es-XL)
